@@ -2,7 +2,7 @@ import { UPlugin } from '@classes';
 const Patcher = require('@patcher');
 const { MessageActions } = require('@webpack');
 
-export default class resize extends UPlugin {
+export default class timestamp extends UPlugin {
   start() {
     this.patchMessage();
   }
